@@ -1,0 +1,56 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedor-flex{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.carta-usuario{
+    background-color:white;
+    margin: 5px;
+    font-size:1.2rem;
+    box-shadow: 2px 2px 5px  black;
+}
+.carta-encabezado{
+    width: 30px;
+    height: 100px;
+    background-color: blue;
+    width: 1000px;
+    box-shadow: 2px 2px 5px  black;
+    
+}
+
+.avatar{
+    background-color: aliceblue;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px  rebeccapurple;
+    position: relative;
+    top: 60px;
+    left: 20px;
+    padding: 1px;
+}
+
+.carta-cuerpo{
+    margin: 20px;
+}
+
+.icon-s{
+    height: 23px;
+}
+
+p{
+    font-weight: 700;
+}
+
+a{
+    margin-left: 2px;
+    text-decoration: dotted;
+}
